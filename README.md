@@ -1,9 +1,15 @@
 # Portfolio
 Nesse repositorio desenvolvi meu portfolio utilizando HTML, CSS e Bootstrap.
 
+### 💡 Ideia:
+
  A ideia de desenvolver esse projeto surgiu após conhecer a comunidade do Discord "Codelândia" do Iuri Silva, a base que segui para desenvolver o portfolio está disponivel como um desafio, o link do mesmo no Figma é: https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios-Codel%C3%A2ndia?node-id=13190%3A2.
 
- Mesmo atualmente seguindo o desafio proposto pelo iuri, pretendo realizar alterações para trazer minha própria identidade, quando finalizado irei disponibilizar novas Screenshots. 
+ Mesmo atualmente seguindo o desafio proposto pelo iuri, pretendo realizar alterações para trazer minha própria identidade, quando finalizado irei disponibilizar novas Screenshots.
+ 
+### 💻 Estágio atual:
+
+ Atualmente estou realizando ajustes na parte visual, adicionando todas as caracteristicas presentes no modelo do Iuri, após finalizar irei aplicar novas funções.
 
 ### Alguns Screenshots:
 
