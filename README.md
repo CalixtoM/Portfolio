@@ -9,7 +9,7 @@ Nesse repositorio desenvolvi meu portfolio utilizando HTML, CSS e Bootstrap.
  
 ### 💻 Estágio atual:
 
- Atualmente estou realizando ajustes na parte visual, adicionando todas as caracteristicas presentes no modelo do Iuri, após finalizar irei aplicar novas funções.
+ Atualmente estou realizando ajustes na parte visual, adicionando todas as caracteristicas presentes no modelo do Iuri, após finalizar irei aplicar novas funções, como meus dados e etc.
 
 ### 📸 Alguns Screenshots:
 
