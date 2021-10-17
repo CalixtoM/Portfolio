@@ -1,0 +1,16 @@
+@media (max-width:  575px){
+
+	.card{
+		margin-bottom: 10px;
+	}
+
+	#btdown{
+		margin-bottom: 10px;
+	}
+
+	#linksfoot{
+		margin-bottom: 15px;
+	}
+
+}
+
