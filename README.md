@@ -30,7 +30,6 @@ Link p/ Acesso: https://calixtom.github.io/Portfolio/
 <img src="https://user-images.githubusercontent.com/51165259/137760734-cbeefa1d-7455-44a5-afb1-705f242f934d.png" width="800"/>
 
 
+### Disponivel em: https://calixtom.github.io/Portfolio/
 
-
-### 🛠 PROJETO EM DESENVOLVIMENTO
- Várias características ainda serão modificadas e/ou adicionadas.
+### PROJETO FINALIZADO
