@@ -32,4 +32,4 @@ Link p/ Acesso: https://calixtom.github.io/Portfolio/
 
 ### Disponivel em: https://calixtom.github.io/Portfolio/
 
-### PROJETO FINALIZADO
+### PROJETO FINALIZADO✅
