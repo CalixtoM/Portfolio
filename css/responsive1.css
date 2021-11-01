@@ -1,6 +1,8 @@
 @media (min-width:  575px){
 
-
+	#imgita{
+		height: 100%;
+	}
 
 	#mincol{
 		display: none;
