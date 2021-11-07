@@ -11,7 +11,7 @@ Link p/ Acesso: https://calixtom.github.io/Portfolio/
  
 ### 💻 Estágio atual:
 
- Atualmente estou realizando ajustes na parte visual, adicionando todas as caracteristicas presentes no modelo do Iuri, após finalizar irei aplicar novas funções, como meus dados e etc.
+ Atualmente esse projeto já se encontra finalizado, apenas são realizadas modificações para inserir novos projetos.
 
 ### 📸 Alguns Screenshots:
 
