@@ -1,0 +1,505 @@
+	#inpt{
+		margin-top: 10px;
+
+	}
+
+	#car{
+		margin-top: 10px;
+	}
+
+	#inptf{
+		margin-top: 15px;
+		margin-bottom: 5px;
+		border-color: #976738;
+		background-color: #976738;
+		border-radius: 0%;
+		width: 100%;
+		color: white;
+
+	}
+
+	#inptf:hover{
+		background-color: white;
+		color: #976738;
+		border-color: white;
+	}
+
+	#contato{
+		background-color: transparent;
+		margin-top: 40px;
+		padding-bottom: 40px;
+	}
+
+
+
+	#infos{
+		border: 2px solid red;
+		border-radius: 1%;
+		margin-top: 10px;
+		transition: box-shadow 0.5s;
+
+	}
+
+	#infos:hover{
+		box-shadow: 0 8px 12px 0 black, 0 8px 12px 0 black;
+
+	}
+
+	.tst{
+		box-shadow: 10px 10px 5px grey;
+		height: 10px;
+
+	}
+
+	footer a {
+		color: red;
+	}
+
+	footer a:hover{
+		color: darkred;
+	}
+
+	#title{
+		color: yellow;
+		margin-top: 8px;
+		margin-bottom: 25px;
+		-webkit-text-stroke-width: 1px; /* largura da borda */
+		-webkit-text-stroke-color: #000; /* cor da borda */
+	}
+
+	#ttexto{
+		color: #363636;
+		font-family: impact;
+		-webkit-text-stroke-width: 0.5px;
+		-webkit-text-stroke-color: black;
+	}
+
+	.parallax{
+		margin-top: 10px;
+		padding-bottom: 20px;
+	}
+
+	.parallax {
+  	/* The image used */
+  	background-image: url("../img/ita2.jpg");
+  	margin-top: -20px;
+  	/* Set a specific height */
+  	min-height: 200px;
+
+
+  	/* Create the parallax scrolling effect */
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	margin-bottom: 30px;
+	}
+
+	#grandeOportunidade{
+		margin-top: -90px;
+	}	
+
+	#titulovideo{
+		color: #727272;
+		font-family: impact;
+		-webkit-text-stroke-width: 0.5px;
+		-webkit-text-stroke-color: black;
+	}
+
+	#telefones{
+		background-color: red;
+		border-radius: 2%;
+		margin-bottom: 10px;
+	}
+	
+
+	.page-footer {
+	  padding: 2.5rem 0;
+	  color: white;
+	  text-align: center;
+	  background-color: black;
+	  border-top: .25rem solid black;
+	}
+	.page-footer p:last-child {
+	  margin-bottom: 0;
+	}
+
+	#mapa{
+		margin-top: 30px;
+		margin-right: 10px;
+	}
+
+	#wpp{
+		width: 100px;
+		height: 50px;
+		margin-top: 140px; /* altura que está do topo */
+	    top: 50px; /* altura que vai parar antes do topo */
+	    position: sticky;
+	}
+
+	#titulovalor{
+		color: #363636;
+		font-family: Jazz LET, fantasy;
+		margin-top: 15px;
+		
+		
+	}
+	
+	#stitulovalor{
+		color: #363636;
+		font-family: Jazz LET, fantasy;
+		margin-top: 5px;
+		/*-webkit-text-stroke-width: 2px;  largura da borda 
+		-webkit-text-stroke-color: #000;  cor da borda */
+	}
+
+	html {
+    	overflow-y: scroll;
+   		scroll-behavior: smooth;
+	}
+
+	#linknav{
+		color: red;
+	}
+
+	#linknav:hover{
+		color: darkred;
+	}
+
+	#topo{
+
+	}
+
+	.carousel-item img{
+		min-width: 100%;
+		height: 310px; 
+	}
+
+	#titulo1 h1{
+
+		color: white;
+
+
+	}
+
+	#subtitulo1 h2{
+		color: white;
+		font-family: 'Montserrat';		
+	}
+
+
+	#titulo2 {
+		color: white;
+		padding-bottom: 15px;
+		font-family: 'arial';
+	}
+
+	#titulo3 {
+		color: #363636;
+		/*-webkit-text-stroke-width: 2px; 
+		-webkit-text-stroke-color: #000; */ 
+	
+		padding-bottom: 15px;
+	}
+
+	#titulocards{
+		padding-top: 16px;
+	}
+
+	/*.card-body{
+		background-color: #40E0D0; 
+		color: white;
+		border-color: #40E0D0;
+
+	}*/
+
+	/* .card-body:hover{
+		background-color: #00CED1;
+		color: white;
+	}*/
+
+	/* #titulos{
+		-webkit-text-stroke-width: 2px; 
+		-webkit-text-stroke-color: #000; 
+	} */
+
+	body{
+		background-color: #DAA520;
+
+	}
+
+	#invesq{
+		background-color: red;
+		border-radius: 2%;
+		width: 80%;
+	}
+
+	#entrega{
+		color: #363636;
+		/*-webkit-text-stroke-width: 2px; 
+		-webkit-text-stroke-color: #000; */ 
+	}
+
+	.imgfinal{
+		background-image: url("../img/morro.jpg");
+		margin-top: 10px;
+		/* Set a specific height */
+		min-height: 600px;
+
+
+		/* Create the parallax scrolling effect */
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin-bottom: -32px;
+	}
+
+	#centerctt{
+		display: none;
+	}
+
+	#valoresid{
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+
+	#met{
+		color: white;
+		font-size: 90px;
+	}
+
+	#t1{
+		color: white;
+		font-size: 40px;
+	}
+
+	#t2{
+		color: white;
+		font-size: 35px;
+	}
+
+	#ft{
+	}
+
+	#fta{
+		margin-top: -40px;
+
+	}
+
+	#real{
+		margin-top: 30px;
+		color: #363636;
+
+
+	}
+
+	nav{
+		background-color: transparent;
+	}
+
+	/* textos */
+
+
+
+	#mega{
+		color: #e7d794;
+	}
+
+	#lanc{
+		color: #ffffff;
+		text-decoration: underline;
+		text-decoration-color: #e7d794;
+	}
+
+	#cont {
+		color: white;
+	}
+
+	#texto-sonho{
+		font-family: 'Montserrat';
+		color: #45642c;
+	}
+
+	#invest{
+		color: white;
+		text-decoration: underline;
+		text-decoration-color: #233714;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	#texto-carro1{
+		color: #fbe1c8;
+		text-align: center;
+		font-size: 25px;
+	}
+
+	/* Partes */
+
+	.parte2{
+		margin-top: -60px;
+		background-color: #306424;
+		padding-bottom: 20px;
+		padding-top: 20px;
+	}
+
+	#circulo {
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		background-color: red;
+		margin: 50px;
+
+
+	}
+
+	#card-edit{
+		color: white;
+		background-color: #629738;
+		border-color: #629738;
+		border-bottom-color: red;
+		padding-top: 25px;
+		padding-bottom: 25px;
+		border-left: 2px solid;
+		border-left-color: #303c28;
+	}
+
+	#card-edit:hover{
+		background-color: #3e651f;
+	}
+
+	.card{
+		width: 100%;
+		padding-left: -10px;
+		padding-right: -10px;
+		background-color: ;
+	}
+
+	#circ{
+		background-image: url("../img/imovel/teste.png");
+		padding-right: 100px;
+		opacity: 0.9;
+	}
+
+	#btn-clique{
+		padding: 45px 45px 45px 45px;
+	}
+
+	/* Imgs */
+
+	#img-sonho{
+		background:url("../img/imovel/combo.png") center;
+		background-size: cover !important;
+		width: 120% !important;
+		height: auto;
+	}
+
+	
+
+
+	#parte4-pc{
+		background-color: #9da79d;
+		padding-bottom: 80px;
+	}
+
+	#parte5{
+		background-color: #434343;
+
+		padding-bottom: -50px;
+	}
+
+	#foto-01{
+		background:url("../img/ita2.jpg") center;
+		background-size: cover !important;
+		width: 120% !important;
+		height: auto;
+	}
+
+	#foto-02{
+		background:url("../img/ita3.jpg") center;
+		background-size: cover !important;
+		width: 120% !important;
+		height: auto;
+	}
+
+	#texto-pt6{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	#img-form{
+		background:url("../img/morro.jpg") center;
+		background-size: cover !important;
+		width: 120% !important;
+		height: auto;
+	}
+
+	#parte-final{
+		background-color: #629738;
+	}
+
+	/* Botões */
+
+	#bt1{
+		background-color: black;
+		border-radius: 50px;
+		padding: 15px 15px 15px 15px;
+		color: white;
+		text-decoration: none;
+		background-color: #4caf50;
+	}
+
+	#bt1:hover{
+		text-decoration: none;
+		color: white;
+	}
+
+	#bt1 i{
+		padding-left: 10px;
+	}
+
+	#btcar{
+		margin-top: 30px;
+	}
+
+	.botao2{
+	}
+
+	.botao3{
+		background-color: #45642c;
+		padding: 5px 5px 5px 5px;
+		border-radius: 50px;
+		color: white;
+	}
+
+	.botao3:hover{
+		background-color: #45642c;
+		padding: 5px 5px 5px 5px;
+		border-radius: 50px;
+		color: white;
+	}
+
+	#bt2{
+		background-color: black;
+		border-radius: 50px;
+		color: white;
+		padding: 10px 20px 10px 20px;
+		text-decoration: none;
+		background-color: #4caf50;
+	}
+
+	#bt2:hover{
+		text-decoration: none;
+		color: white;
+	}
+
+	.botao4{
+		width: 30%;
+		height: auto;
+	}
+
+	#botaowpp{
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
