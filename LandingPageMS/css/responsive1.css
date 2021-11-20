@@ -16,6 +16,11 @@
 		display: none;
 	}
 
+	#invest-img{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
 	#img-inv{
 		background:url("../img/imovel/invest.png") center;
 		background-size: cover !important;
