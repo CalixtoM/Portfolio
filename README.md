@@ -11,7 +11,7 @@ Link p/ Acesso: https://calixtom.github.io/Portfolio/
  
 ### 💻 Estágio atual:
 
- Atualmente esse projeto já se encontra finalizado, apenas são realizadas modificações para inserir novos projetos.
+ Atualmente esse projeto já se encontra finalizado, apenas são realizadas modificações para inserir novos projetos e ajustes que são necessários com o passar do tempo.
 
 ### 📸 Alguns Screenshots:
 
