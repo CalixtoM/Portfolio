@@ -30,6 +30,6 @@ Link p/ Acesso: https://calixtolabs.com.br
 <img src="https://user-images.githubusercontent.com/51165259/137760734-cbeefa1d-7455-44a5-afb1-705f242f934d.png" width="800"/>
 
 
-### Disponivel em: https://calixtom.github.io/Portfolio/
+### Disponivel em: https://calixtolabs.com.br
 
 ### PROJETO FINALIZADO✅
