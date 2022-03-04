@@ -7,7 +7,7 @@ Link p/ Acesso: https://calixtolabs.com.br
 
  A ideia de desenvolver esse projeto surgiu após conhecer a comunidade do Discord "Codelândia" do Iuri Silva, a base que segui para desenvolver o portfolio está disponivel como um desafio, o link do mesmo no Figma é: https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios-Codel%C3%A2ndia?node-id=13190%3A2.
 
- Mesmo seguindo o desafio proposto pelo iuri, realizei alterações para trazer minha própria identidade, com o resultado estando disponível.
+ Mesmo seguindo o desafio proposto pelo iuri, realizei alterações para trazer minha própria identidade, com o resultado estando disponível nesse repositório.
  
 ### 💻 Estágio atual:
 
