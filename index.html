@@ -17,7 +17,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
 	<meta charset="utf-8">
-	<title>Página Inicial - CalixtoLabs</title>
+	<title>CalixtoLabs - Portfolio</title>
 </head>
 <body>
 
@@ -188,6 +188,17 @@
 							</div>
 						</div>
 					</div>
+
+					<div class="col-sm-4">
+						<div class="card text-white mb-3" style="width: 18rem;  background-color: #212121;" >
+						  	<img src="img/pokedex.png" alt="agenda" class="card-img-top" alt="...">
+						  	<div class="card-body">
+						    	<h5 class="card-title">PokeDex API</h5>
+						    	<p class="card-text">Stack: PHP, CSS, JavaScript, API</p>
+						    	<a href="https://github.com/CalixtoM/Pokedex-API" class="btn btn-primary">Visualizar</a>
+							</div>
+						</div>
+					</div>
 					<!--<div class="col-sm-4">
 						<div class="card text-white mb-3" style="width: 18rem;  background-color: #212121;">
 						  	<img src="img/ms.png" class="card-img-top" alt="...">
@@ -318,21 +329,21 @@
 	          		<!-- Facebook -->
 	          			<div class="col-4" id="linksfoot">
 	          				<a class="fb-ic" name="Facebook" href="https://www.facebook.com/CalixtoLabs-112900521289192">
-	            				<i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+	            				<i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i><p id="linkfoot">Facebook</p>
 	          				</a>
 	          			</div>
 
 	          		<!--Linkedin -->
 	          			<div class="col-4" id="linksfoot">
 	          				<a class="li-ic" name="LinkedIn" href="https://www.linkedin.com/in/matheus-calixto-29480719a/">
-	            				<i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+	            				<i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i> <p id="linkfoot">LinkedIn</p>
 	          				</a>
 	          			</div>
 
 	          		<!--Instagram-->
 	          			<div class="col-4" id="linksfoot">
 	          				<a class="ins-ic" name="Instagram" href="https://www.instagram.com/mcalixto1302/">
-	          				  	<i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+	          				  	<i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i> <p id="linkfoot">Instagram</p>
 	          				</a>
 	          			</div>
 	        		</div></center>
@@ -472,6 +483,10 @@
 	}
 	details[open] summary:after {
 	  content: "-";
+	}
+
+	#linkfoot{
+		display: none;
 	}
 
 </style>
