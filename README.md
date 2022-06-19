@@ -29,6 +29,15 @@ Link p/ Acesso: https://calixtolabs.com.br
 
 <img src="https://user-images.githubusercontent.com/51165259/137760734-cbeefa1d-7455-44a5-afb1-705f242f934d.png" width="800"/>
 
+## 🧰 Tecnologias Utilizadas:
+
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" width="52" alt="html5 logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" width="52" alt="css3 logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" width="52" alt="javascript logo"  />
+</div>
+
+
 
 ### Disponivel em: https://calixtolabs.com.br
 
