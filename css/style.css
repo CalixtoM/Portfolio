@@ -1,7 +1,7 @@
 	#fundo, #foot{
 		background: rgb(23,23,23);
 		background: linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(6,26,46,1) 50%, rgba(23,23,23,1) 100%);
-		padding-top: 4%;
+		padding-top: 2%;
 	}
 
 	#fundonav{
