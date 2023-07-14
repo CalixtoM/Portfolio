@@ -1,0 +1,150 @@
+	#fundo, #foot{
+		background: rgb(23,23,23);
+		background: linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(6,26,46,1) 50%, rgba(23,23,23,1) 100%);
+		padding-top: 4%;
+	}
+
+	#fundonav{
+		background: rgb(23,23,23);
+		background: linear-gradient(90deg, rgba(23,23,23,1) 0%, rgba(6,26,46,1) 50%, rgba(23,23,23,1) 100%);
+	}
+
+	#cards-c1{
+		background-color: #212121;
+		border-bottom-color: DodgerBlue;
+		border-bottom-width: 3px;
+	}
+
+	#cards-c2{
+		background-color: #212121;
+		border-bottom-color: DodgerBlue;
+		border-bottom-width: 3px;
+	}
+
+	#cards-c3{
+		background-color: #212121;
+		border-bottom-color: DodgerBlue;
+		border-bottom-width: 3px;
+	}
+
+	#skills{
+		color: #00DF5E;
+	}
+
+	#btdown{
+		background-color: DodgerBlue;
+		border-color: DodgerBlue;
+		border-radius: 0%;
+		color: black;
+	}
+
+	#btdown:hover{
+		background-color: RoyalBlue;
+		border-color: RoyalBlue;
+	}
+
+	#btctt{
+		background-color: #212121;
+		border-color: #333333;
+		border-radius: 0%;
+		color: white;
+	}
+
+	#linha{
+		margin-top: 35px;
+		margin-bottom: 35px;
+	}
+
+	i{
+		color: white;
+		font-size: 42px;
+	}
+
+	p{
+		color: white;
+	}
+
+	.ibg{
+		color: #212121;
+		border-radius: 100%;
+		margin-bottom: 35px;
+		margin-left: 10px;
+		text-align: center;
+		/*height: 100px;
+		display: flex;
+		 justify-content: center;
+		align-items: center;
+		margin-bottom: 2rem; */
+	}
+
+	#tst{
+		color: blue;
+		border-radius: 100%;
+		width: 200px;
+		height: 200px;
+		border-color: blue;
+	}
+
+	#skillsrow{
+		padding-bottom: 35px;
+	}
+
+	#navbtn{
+		border-bottom: 2px solid #171717;
+		transition: border-bottom 0.7s;
+	}
+
+	#navbtn:hover{		
+		border-bottom: 2px solid DodgerBlue;
+	}
+
+	summary{
+		list-style: none;
+	}
+
+	summary::-webkit-details-marker {
+	  display: none;
+	}
+	summary:after {
+	  background: #171717; 
+	  content: "+"; 
+	  color: DodgerBlue;
+	  float: left;  
+	  font-weight: bold; 
+	  padding: 0; 
+	  text-align: center; 
+	  width: 20px;
+	  left: 20px;
+	  margin-right: 10px;
+	}
+	details[open] summary:after {
+	  content: "-";
+	}
+
+	#linkfootI, #linkfootF, #linkfootL{
+		text-decoration: none;
+		color: dodgerblue;
+	}
+
+
+	.titulo-principal{
+	    max-width: 480px;
+	    margin: 60px auto;
+	    color: #fff;
+	}
+	.titulo-principal:after{
+	 content: '|';
+	 margin-left: 5px;
+	 opacity: 1;
+	 animation: pisca .7s infinite;
+	}
+	/* Animação aplicada ao content referente a classe *.titulo-principal* resultando num efeito de cursor piscando. */
+
+	@keyframes pisca{
+	    0%, 100%{
+	        opacity: 1;
+	    }
+	    50%{
+	        opacity: 0;
+	    }
+	}
