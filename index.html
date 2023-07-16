@@ -151,13 +151,26 @@
 					<center><h2 style="color: white; font-size: 24px; ">Projetos</h2></center>
 				</div>
 			</div>
-			<details>
-				<summary style="color: white;">Sites e Sistemas</summary>
+
 			
+
+			<div class="row">
+				<div class="col-sm-5" id="siteSwitch">
+				</div>
+				<div class="col-sm-2" >
+					<center><div class="onoff">
+						<h3 id="estado" style="color: white; font-size: 20px;">Sites</h3>
+						<input type="checkbox" class="toggle" id="btnClick">
+						<label for="btnClick"></label>
+					</div></center>
+				</div>
+			</div>
+
+			<div id="sites">
 				<center><div class="row" id="projetos" style="margin-top: 15px;">
 					<div class="col-sm-4">
 						<div class="card text-white mb-3" style="width: 18rem; background-color: #212121;">
-						  	<img src="img/print_login.webp" alt="tela de login" class="card-img-top" alt="...">
+						  	<img src="img/a.webp" alt="tela de login" class="card-img-top" alt="...">
 						  	<div class="card-body">
 						    	<h3 class="card-title" style="font-size: 1.2em;">Sistema de login</h3>
 						    	<p class="card-text">Stack: HTML, PHP, MySQL</p>
@@ -258,30 +271,15 @@
 								</div>
 							</div>
 						</div>
-					</div>
-					<!--<div class="col-sm-4">
-						<div class="card text-white mb-3" style="width: 18rem;  background-color: #212121;">
-						  	<img src="img/ms.png" class="card-img-top" alt="...">
-						  	<div class="card-body">
-						    	<h5 class="card-title">Landing Page Condomínio</h5>
-						    	<p class="card-text">Tecnologias: HTML, CSS, JavaScript</p>
-						    	<a href="https://mscasanapraia.com.br/" class="btn btn-primary">Visualizar</a>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-4">
-						<div class="card text-white mb-3" style="width: 18rem;  background-color: #212121;" >
-						  	<img src="img/semimagem.jpg" class="card-img-top" alt="...">
-						  	<div class="card-body">
-						    	<h5 class="card-title">Titulo do projeto</h5>
-						    	<p class="card-text">Tecnologias: HTML, PHP, JavaScript</p>
-							</div>
-						</div>
-					</div>
-				</div>--></center>
-			</details> <!-- Sites -->
-			<details>
-				<summary style="color: white;">Apps</summary>
+					</div></center>
+			</div> <!-- Sites -->
+
+			<div id="2" style="display:none;">
+				
+			</div>
+
+
+			<div id="apps" style="display:none;">
 				<center><div class="row" id="projetos" style="margin-top: 15px;">
 					<div class="col-sm-4">
 						<div class="card text-white mb-3" style="width: 18rem; background-color: #212121;">
@@ -330,7 +328,7 @@
 				</div>
 
 				</center>
-			</details><!-- Apps -->
+			</div><!-- Apps -->
 
 			<div class="row" id="linha">
 				<div class="col-sm-4"></div>
@@ -664,6 +662,7 @@
 </html>
 
 <script type="text/javascript">
+	//Nome piscando e sendo digitado
     function typeWrite(elemento){
         const textoArray = elemento.innerHTML.split('');
         elemento.innerHTML = ' ';
@@ -678,4 +677,23 @@
     const titulo = document.querySelector('.titulo-principal');
     typeWrite(titulo);
 
+
+	// Mudar div de projetos
+	$( document ).ready(function() {
+   		$('#btnClick').on('click',function(){
+    		if($('#sites').css('display')!='none'){
+    			$('#2').html($('#apps').html()).show().siblings('#sites').hide();
+    		}else if($('#2').css('display')!='none'){
+        		$('#sites').show().siblings('#2').hide();
+    		}
+		});
+    });
+
+
+	//Switch
+	var onoff = document.getElementById('btnClick');
+	var estado = document.getElementById('estado');
+	onoff.addEventListener('change', function() {
+    	estado.innerHTML = this.checked ? 'Apps' : 'Sites';
+	});
 </script>
