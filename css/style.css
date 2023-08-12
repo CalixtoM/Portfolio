@@ -4,6 +4,10 @@
 		padding-top: 2%;
 	}
 
+	#lk{
+		color: white;
+	}
+
 	.center-itens{
 		display: flex;
 		justify-content: center;
