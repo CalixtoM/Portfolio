@@ -34,6 +34,14 @@
 </head>
 <body>
 
+	<script>
+	        const date = new Date();
+	        console.log(date);
+	
+	        let year = date.getFullYear();
+	        console.log(year);
+    	</script>
+
 	<nav class="navbar navbar-expand-lg fixed-top navbar-dark " id="fundonav">
 		<div class="container-fluid">
 	    	<a class="navbar-brand" href="#"><img width="120" alt="Logotipo Calixtolabs" class="d-inline-block align-text-top" src="img/logo_texto.webp"></a>
@@ -444,9 +452,9 @@
 
 	  <!-- Copyright -->
 	  	<div class="footer-copyright text-center py-3" style="color: white;">
-			© 2024 Copyright:
-	    	<a href="https://calixtolabs.com.br/" style="color: dodgerblue; text-decoration: none;">CalixtoLabs
-	    	</a>
+			<script>
+				document.write('<a href="https://calixtolabs.com.br/" style="color: dodgerblue; text-decoration: none;">© Copyright: '+ year +'CalixtoLabs</a>')	    	
+			</script>
 	  	</div>
 	  <!-- Copyright -->
 
