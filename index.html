@@ -87,13 +87,13 @@
 						<h2 style="color: white; text-align: center; font-size: 24px;">Sobre Mim</h2>
 					</div>
 					<div class="row">
-						<p style="color: silver; text-align: justify;">Tenho 21 anos, possuo formação técnica em Informática P/ Internet pela Etec de Itanhaém e também sou tecnólogo em Análise e Desenvolvimento de Sistemas pela Fatec de Praia Grande. Possuo uma série de projetos realizados para diversos setores, conheça um pouco mais! Se tiver interesse em algum dos meus serviços estarei a disposição para conversarmos.</p>
+						<p style="color: silver; text-align: justify;">Tenho <span id="idade"></span> anos, possuo formação técnica em Informática P/ Internet pela Etec de Itanhaém e também sou tecnólogo em Análise e Desenvolvimento de Sistemas pela Fatec de Praia Grande. Possuo uma série de projetos realizados para diversos setores, conheça um pouco mais! Se tiver interesse em algum dos meus serviços estarei a disposição para conversarmos.</p>
 					</div>
 				</div>
 			</div>
 
 			<div class="row">
-				<div class="col-sm-3">
+				<div class="col-sm-4">
 					<div class="row">
 						<div class="row">
 							<div class="col-sm-12 ibg">
@@ -109,7 +109,7 @@
 					</div>
 				</div>
 
-				<div class="col-sm-3">
+				<div class="col-sm-4">
 					<div class="row">
 						<div class="row">
 							<div class="col-sm-12 ibg">
@@ -125,7 +125,7 @@
 					</div>
 				</div>
 
-				<div class="col-sm-3">
+				<div class="col-sm-4">
 					<div class="row">
 						<div class="row">
 							<div class="col-sm-12 ibg">
@@ -141,7 +141,7 @@
 					</div>
 				</div>
 
-				<div class="col-sm-3">
+				<!--<div class="col-sm-3">
 					<div class="row">
 						<div class="row">
 							<div class="col-sm-12 ibg">
@@ -155,7 +155,7 @@
 							<p class="center-itens" style="color: silver;">(13) 99645-8352</p>
 						</div>
 					</div>
-				</div>
+				</div>-->
 				
 				
 			</div>
@@ -168,7 +168,7 @@
 
 			
 
-			<div class="row">
+			<!--<div class="row">
 				<div class="col-sm-5" id="siteSwitch">
 				</div>
 				<div class="col-sm-2" >
@@ -178,7 +178,7 @@
 						<label for="btnClick" class="center-itens"></label>
 					</div>
 				</div>
-			</div>
+			</div>-->
 
 			<div id="sites">
 				<div class="row" id="projetos" style="margin-top: 15px;">
@@ -449,7 +449,7 @@
 
 	          		<!--Instagram-->
 	          			<div class="col-4" id="linksfoot">
-	          				<a id="lk" class="ins-ic" id="linkfootI" name="Instagram" href="https://www.instagram.com/mcalixto1302/">
+	          				<a id="lk" class="ins-ic" id="linkfootI" name="Instagram" href="https://www.instagram.com/calixtolabs/">
 	          				  	<i id="lk" class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i> <p >Instagram</p>
 	          				</a>
 	          			</div>
@@ -720,6 +720,28 @@
 
 </body>
 </html>
+
+<script>
+  function calcularIdade(dataNascimento) {
+    const hoje = new Date();
+    const nascimento = new Date(dataNascimento);
+
+    let idade = hoje.getFullYear() - nascimento.getFullYear();
+    const mes = hoje.getMonth() - nascimento.getMonth();
+
+
+    if (mes < 0 || (mes === 0 && hoje.getDate() < nascimento.getDate())) {
+      idade--;
+    }
+
+    return idade;
+  }
+
+  const dataNascimento = '2003-02-13'; // YYYY-MM-DD
+  const idade = calcularIdade(dataNascimento);
+
+  document.getElementById('idade').textContent = idade;
+</script>
 
 <script type="text/javascript">
 	//Nome piscando e sendo digitado
